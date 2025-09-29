@@ -1,3 +1,5 @@
+feat: delete this file
+
 /* Import Montserrat and Open Sans fonts from Google Fonts */
 /* Use Typography Styles - Import fonts for consistent typography */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap');
