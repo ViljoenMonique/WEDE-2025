@@ -6,6 +6,19 @@ All notable changes to this project will be documented in this file.
 
 ## Part 3
 
+## [1.0.3] - 2025-11-17
+
+###  Features
+
+Part 3 (added JavaScript)
+We took all the “magic” that was repeated inside every HTML file and put it into one clean external file called JavaScript.js.
+Now the website is no longer just pretty – it actually works like a real modern charity website:
+
+- Click the logo, team photos, or QR code → they zoom big in a nice lightbox
+- Start typing in the search bar → a dropdown instantly appears with the right pages (type “volunteer” → Volunteer page shows up, type “sponsorship” → Enquiry and Donate appear)
+- Fill in the forms → if you type a wrong email or leave something blank, it turns red and tells you the error
+- Click Submit → a lovely popup says “Thank you, Monique! Your message has been sent…” and the form clears
+
 ## [1.0.2] - 2025-10-01
 ###  Features
 - Added updatd html files in the html/ folder.
