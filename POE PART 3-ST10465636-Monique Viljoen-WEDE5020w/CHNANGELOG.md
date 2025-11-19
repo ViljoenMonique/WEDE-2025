@@ -11,13 +11,13 @@ All notable changes to this project will be documented in this file.
 ###  Features
 
 Part 3 (added JavaScript)
-We took all the “magic” that was repeated inside every HTML file and put it into one clean external file called JavaScript.js.
+I took all the “magic” that was repeated inside every HTML file and put it into one clean external file called JavaScript.js.
 Now the website is no longer just pretty – it actually works like a real modern charity website:
 
 - Click the logo, team photos, or QR code → they zoom big in a nice lightbox
 - Start typing in the search bar → a dropdown instantly appears with the right pages (type “volunteer” → Volunteer page shows up, type “sponsorship” → Enquiry and Donate appear)
 - Fill in the forms → if you type a wrong email or leave something blank, it turns red and tells you the error
-- Click Submit → a lovely popup says “Thank you, Monique! Your message has been sent…” and the form clears
+- Click Submit → a lovely popup says “Thank you, (name)! Your message has been sent…” and the form clears
 
 ###  Fixes
 Updated the changelog as per requested from feedback in part 2 below
@@ -27,8 +27,8 @@ Updated the changelog as per requested from feedback in part 2 below
 ###  Features
 
 ## Part 2 (only HTML + CSS) (NEW)
-Your website looked absolutely beautiful.
-Everything was styled perfectly: the 3D blocks, the rotating cards on About Us, the animated helping-hand on Home, the watermark, the blue buttons, the car driving under the map, the perfect colours and fonts – everything was exactly how you wanted it.
+Website looked beautiful.
+Everything was styled perfectly: the 3D blocks, the rotating cards on About Us, the animated helping-hand on Home, the blue buttons, the car driving under the map, the perfect colours and fonts – everything was exactly how I wanted it.
 But it was still just a pretty picture:
 - Clicking the logo or photos did nothing
 - The search bar was just a box – typing anything showed no results
