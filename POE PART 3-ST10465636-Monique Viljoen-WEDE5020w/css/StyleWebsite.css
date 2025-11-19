@@ -1,8 +1,3 @@
-/*=====================================================================
-  Bread for All Foundation – ORIGINAL LOOK RESTORED + SEARCH & LIGHTBOX FIXED
-  November 19, 2025 – your beautiful design 100% back
-=====================================================================*/
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap');
 
 * {
@@ -33,7 +28,7 @@ h4 { font-size: 19px; line-height: 1.5; }
 
 p, li { font-size: 16px; margin-bottom: 10px; line-height: 1.6; }
 
-/* Header and Nav – your original */
+/* Header and Nav –  original */
 header {
     background-color: #fdf8f8; 
     padding: 20px;
@@ -78,7 +73,7 @@ nav a:hover, nav a:focus, nav a:active {
     border-color: #F9A825;
 }
 
-/* Content – your original watermark */
+/* Content –  original watermark */
 .content {
     max-width: 1200px;
     margin: 20px auto;
@@ -108,7 +103,7 @@ nav a:hover, nav a:focus, nav a:active {
     background-color: #ff00001a;
 }
 
-/* 3D Blocks – your original */
+/* 3D Blocks –  original */
 .block-3d {
     background-color: #FFFFFF; 
     border-radius: 8px; 
@@ -132,7 +127,7 @@ nav a:hover, nav a:focus, nav a:active {
 .enquiry-info-block { border-left: 5px solid #0288D1; }
 .volunteer-info-block { border-left: 5px solid #F9A825; }
 
-/* Hero – your original */
+/* Hero –  original */
 .hero {
     background-color: #F9A825; 
     color: #FFFFFF;
@@ -164,7 +159,7 @@ nav a:hover, nav a:focus, nav a:active {
 
 .donate-button:hover { background-color: #F9A825; transform: scale(1.05); }
 
-/* Helping Hand – your original */
+/* Helping Hand –  original */
 .helping-hand {
     text-align: center;
     padding: 32px;
@@ -193,7 +188,7 @@ nav a:hover, nav a:focus, nav a:active {
     100% { transform: translateY(0); opacity: 1; }
 }
 
-/* Team Member – your original */
+/* Team Member –  original */
 .team-member {
     display: flex;
     align-items: center;
@@ -228,7 +223,7 @@ nav a:hover, nav a:focus, nav a:active {
 .team-member p { font-size: 16px; }
 .team-member p strong { color: #2E7D32; }
 
-/* Rotator – your original */
+/* Rotator –  original */
 .rotator {
     perspective: 1000px; 
     position: relative;
@@ -262,7 +257,7 @@ nav a:hover, nav a:focus, nav a:active {
 .rotatable-block > * { backface-visibility: hidden; }
 .rotatable-block h3 { color: #F9A825; margin-bottom: 16px; }
 
-/* Location and Map – your original */
+/* Location and Map –  original */
 .location {
     margin-bottom: 32px;
     background-color: #FFFFFF; 
@@ -272,7 +267,7 @@ nav a:hover, nav a:focus, nav a:active {
     box-shadow: 0 4px 10px rgba(249, 168, 37, 0.3); 
 }
 
-/* Interactive Map Enhancements – your original */
+/* Interactive Map Enhancements –  original */
 .map-container { position: relative; display: inline-block; margin-top: 16px; cursor: pointer; transition: transform 0.3s; }
 
 .map-container:hover { transform: scale(1.02); }
@@ -287,7 +282,7 @@ nav a:hover, nav a:focus, nav a:active {
 
 .map iframe:hover { box-shadow: 0 0 10px rgba(46, 125, 50, 0.5); }
 
-/* Forms - your original */
+/* Forms -  original */
 form {
     background-color: #F5F5F5; 
     border: 2px solid #2E7D32; 
@@ -423,7 +418,7 @@ footer {
     font-size: 14px;
 }
 
-/* SEARCH BAR – beautiful dropdown that appears as you type */
+/* SEARCH BAR –  dropdown that appears as you type */
 .search-container {
     position: relative;
     width: 100%;
@@ -483,7 +478,7 @@ footer {
     font-style: italic;
 }
 
-/* LIGHTBOX – beautiful zoom */
+/* LIGHTBOX –  zoom */
 #lightbox {
     position: fixed;
     top: 0; left: 0;
@@ -546,7 +541,7 @@ footer {
     transform: scale(1.05) !important;
 }
 
-/* Responsive – your original */
+/* Responsive –  original */
 @media (max-width: 768px) {
     body { font-size: 14px; }
 
@@ -576,4 +571,5 @@ footer {
     .filter-section label { margin-bottom: 10px; margin-right: 0; }
 
     .map iframe { height: 250px; }
+
 }
