@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us - Bread for All Foundation</title>
+  <meta name="description" content="Contact Bread for All Foundation: find our Durban locations, submit enquiries, and get responses within 2-3 business days.">
+  <link rel="stylesheet" href="../css/StyleWebsite.css">
+</head>
+<body>
+  <header>
+    <img src="../images/Logo.jpg" alt="Bread for All Foundation Logo" class="lightbox-trigger" loading="lazy" width="200">
+    <h1>BREAD FOR ALL FOUNDATION</h1>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="services.html">Services</a>
+      <a href="donate.html">Donate</a>
+      <a href="enquiry.html">Enquiry</a>
+      <a href="volunteer.html">Volunteer</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+
+     <!-- SEARCH BAR – exactly as it worked before -->
+    <div class="search-container">
+        <div class="smart-search">
+            <input type="text" id="siteSearch" placeholder="Search sponsorship, volunteer, donate..." autocomplete="off">
+            <div id="searchResults" class="search-dropdown"></div>   <!-- KEEP the class – this is what made it work! -->
+        </div>
+    </div>
+  </header>
+
+  <main class="content">
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you! Whether you’re looking to donate, volunteer, or simply learn more about our work, the Bread for All Foundation team is here to help.</p>
+
+    <section class="location">
+      <h3>Our Locations</h3>
+      <p><strong>Main Office & Central Soup Kitchen</strong><br>123 Hope Street, Durban Central, 4001<br>+27 31 555 1234<br><a href="mailto:info@breadforall.org.za">info@breadforall.org.za</a></p>
+
+      <p><strong>Community Soup Kitchen – Umlazi Branch</strong><br>45 Community Lane, Umlazi, Durban, 4066<br>+27 31 555 5678</p>
+    </section>
+
+    <section class="location">
+      <h3>Find Us on the Map</h3>
+      <p>Our interactive map shows the locations of our soup kitchens.</p>
+      <div class="map-container" id="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27681.76435752427!2d30.9846875002588!3d-29.857912846540987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef7a9c7cd824ddf%3A0xdf4136545b0fb717!2sDurban%20Central%2C%20Durban%2C%204001!5e0!3m2!1sen!2sza!4v1755065359474!5m2!1sen!2sza" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+    <section class="location">
+      <h3>Contact Form</h3>
+      <p>Please use the form below to send us your enquiry. We’ll get back to you within 2–3 business days.</p>
+
+      <form id="contact-form" novalidate>
+        <div class="form-group">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" required minlength="2" maxlength="50">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number (optional):</label>
+          <input type="tel" id="phone" name="phone" pattern="[0-9+\-\s()]{10,15}" maxlength="15">
+        </div>
+
+        <div class="form-group">
+          <label for="enquiry-type">Enquiry Type:</label>
+          <select id="enquiry-type" name="enquiry-type" required>
+            <option value="">Select Type</option>
+            <option value="services">Services</option>
+            <option value="sponsorship">Sponsorship</option>
+            <option value="volunteering">Volunteering</option>
+            <option value="general">General</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required minlength="10" maxlength="500"></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit">Submit Contact Enquiry</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>Bread for All NPO © 2025</footer>
+
+  <script src="../js/JavaScript.js" defer></script>
+</body>
+</html>

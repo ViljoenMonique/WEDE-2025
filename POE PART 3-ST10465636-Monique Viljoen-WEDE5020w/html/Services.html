@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Bread for All Foundation - Soup Kitchens and Food Parcels in Durban</title>
+    <meta name="description" content="Discover Bread for All Foundation's services: weekly soup kitchens, food parcel programs, and goals to distribute 2,000 meals monthly in Durban communities.">
+    <meta name="keywords" content="soup kitchens Durban, food parcels, meal distribution, hunger relief services, nonprofit programs South Africa">
+    <link rel="stylesheet" href="../css/StyleWebsite.css">
+</head>
+<body>
+<header>
+    <img src="../images/Logo.jpg" alt="Bread for All Foundation Logo" style="width:200px;height:auto;" class="lightbox-trigger" loading="lazy">
+    <h1>BREAD FOR ALL FOUNDATION</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="donate.html">Donate</a>
+        <a href="enquiry.html">Enquiry</a>
+        <a href="volunteer.html">Volunteer</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+   <!-- SEARCH BAR – exactly as it worked before -->
+    <div class="search-container">
+        <div class="smart-search">
+            <input type="text" id="siteSearch" placeholder="Search sponsorship, volunteer, donate..." autocomplete="off">
+            <div id="searchResults" class="search-dropdown"></div>   <!-- KEEP the class – this is what made it work! -->
+        </div>
+    </div>
+</header>
+
+<div class="content">
+    <h2>Our Services</h2>
+    <p>At Bread for All Foundation, we believe no one should go to bed hungry. Our services focus on delivering nutritious meals, essential supplies, and long-term food support to vulnerable communities in Durban and surrounding areas.</p>
+
+    <div class="filter-section">
+        <label for="service-filter">Filter Services:</label>
+        <select id="service-filter">
+            <option value="all">All Services</option>
+            <option value="soup">Soup Kitchens</option>
+            <option value="parcels">Food Parcels</option>
+        </select>
+    </div>
+
+    <div class="block-3d services-block">
+        <div class="section service-item" data-category="soup">
+            <h3>Soup Kitchens</h3>
+            <p>Our soup kitchens operate in multiple communities every week, offering warm, nutritious meals to those in need. We prioritise children, the elderly, and unemployed individuals who face daily food insecurity. Beyond just food, our kitchens are a place of dignity, compassion, and community.</p>
+        </div>
+
+        <div class="section service-item" data-category="parcels">
+            <h3>Food Parcel Programmes</h3>
+            <p>For families who cannot attend our soup kitchens, we distribute food parcels containing essentials such as maize meal, rice, beans, cooking oil, and tinned goods. These parcels help sustain households for a week or more, providing immediate relief while we work on long-term hunger solutions.</p>
+        </div>
+    </div>
+
+    <div class="block-3d goals-block">
+        <div class="section">
+            <h3>Our Goals</h3>
+            <h4>Primary Goals</h4>
+            <ul>
+                <li>Raise R50,000 in monthly donations through our secure donation portal to fund food purchases and logistics.</li>
+                <li>Recruit 30 volunteers per month using our online volunteer signup form to keep our programmes running efficiently.</li>
+                <li>Distribute 2,000 meals per month, tracked through our backend system and verified via Google Sheets integration.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>Measuring Our Impact</h3>
+        <p>Our monthly meal distribution goals are visualised using infographics on our website, so donors and supporters can see real progress at a glance. This transparency ensures that every supporter knows the difference their contribution makes.</p>
+        <p>By following nonprofit best practices, we focus on donor retention and community-building to create long-term solutions to hunger, not just temporary fixes.</p>
+        <div class="progress">
+            <div class="progress-bar">0% Achieved</div>
+        </div>
+    </div>
+</div>
+
+<footer>Bread for All NPO © 2025</footer>
+
+<script src="..//js/JavaScript.js" defer></script>
+</body>
+</html>

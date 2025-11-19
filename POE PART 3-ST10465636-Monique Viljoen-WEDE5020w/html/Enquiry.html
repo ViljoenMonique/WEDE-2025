@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Enquiry - Bread for All Foundation - Contact Us for Partnerships and Questions</title>
+  <meta name="description" content="Submit an enquiry to Bread for All Foundation about services, sponsorships, or partnerships. Get a response within 3-5 business days from our Durban team.">
+  <link rel="stylesheet" href="../css/StyleWebsite.css">
+</head>
+<body>
+  <header>
+    <img src="../images/Logo.jpg" alt="Bread for All Foundation Logo" class="lightbox-trigger" loading="lazy" width="200">
+    <h1>BREAD FOR ALL FOUNDATION</h1>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="services.html">Services</a>
+      <a href="donate.html">Donate</a>
+      <a href="enquiry.html" class="active">Enquiry</a>
+      <a href="volunteer.html">Volunteer</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+   <!-- SEARCH BAR – exactly as it worked before -->
+    <div class="search-container">
+        <div class="smart-search">
+            <input type="text" id="siteSearch" placeholder="Search sponsorship, volunteer, donate..." autocomplete="off">
+            <div id="searchResults" class="search-dropdown"></div>   <!-- KEEP the class – this is what made it work! -->
+        </div>
+    </div>
+  </header>
+
+  <main class="content">
+    <h2>Get in Touch with Bread for All Foundation</h2>
+    <p>We welcome questions, ideas, and opportunities to collaborate in the fight against hunger. Whether you’re an organisation looking to partner with us, a donor wanting to make a difference, or simply curious about our services, this is the place to reach out.</p>
+
+    <div class="block-3d enquiry-info-block">
+      <h3>Who Can Use This Form?</h3>
+      <ul>
+        <li><strong>Local Charities & NGOs:</strong> Explore opportunities for joint projects and resource sharing.</li>
+        <li><strong>Donors & Sponsors:</strong> Corporates and individuals who wish to support through financial contributions, food donations, or volunteering time.</li>
+        <li><strong>Community Members:</strong> Anyone seeking more information about our services or upcoming events.</li>
+      </ul>
+
+      <h3>How It Works</h3>
+      <ol>
+        <li>Select your enquiry type from the dropdown menu (Service Information, Sponsorship, Partnership, General Question).</li>
+        <li>Provide your details and message.</li>
+        <li>Our team will respond within 3–5 working days.</li>
+      </ol>
+    </div>
+
+    <h3>Contact Form</h3>
+    <form id="enquiry-form" novalidate>
+      <div class="form-group">
+        <label for="enquiry-type">Enquiry Type:</label>
+        <select id="enquiry-type" name="enquiry-type" required>
+          <option value="">Select Type</option>
+          <option value="service">Service Information</option>
+          <option value="sponsorship">Sponsorship</option>
+          <option value="partnership">Partnership</option>
+          <option value="general">General Question</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required minlength="2" maxlength="50">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required minlength="10" maxlength="500"></textarea>
+      </div>
+
+      <div class="form-group">
+        <button type="submit">Submit Enquiry</button>
+      </div>
+    </form>
+  </main>
+
+  <footer>Bread for All NPO © 2025</footer>
+
+  <script src="../js/JavaScript.js" defer></script>
+</body>
+</html>
