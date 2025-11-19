@@ -1,13 +1,8 @@
-/*=====================================================================
-  Bread for All Foundation – JavaScript.js – COMPLETE & WORKING
-  Lightbox + Search + Form validation + Success popup – all in one file
-=====================================================================*/
-
 document.addEventListener('DOMContentLoaded', () => {
     console.log('JavaScript.js loaded – lightbox, search and forms working!');
 
     /*=================================================================
-      1. LIGHTBOX – your original working version
+      1. LIGHTBOX 
     =================================================================*/
     const triggers = document.querySelectorAll('.lightbox-trigger');
 
@@ -67,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     /*=================================================================
-      2. SEARCH – your original working version
+      2. SEARCH 
     =================================================================*/
     const input = document.getElementById('siteSearch');
     const results = document.getElementById('searchResults');
@@ -116,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     /*=================================================================
-      3. FORM VALIDATION + SUCCESS POPUP – your original working version
+      3. FORM VALIDATION + SUCCESS POPUP 
     =================================================================*/
     function handleFormSubmit(formId, successMessage) {
         const form = document.getElementById(formId);
@@ -143,4 +138,5 @@ document.addEventListener('DOMContentLoaded', () => {
     handleFormSubmit('contact-form', 'Your contact enquiry has been submitted successfully. We will get back to you in 2–3 business days.');
     handleFormSubmit('enquiry-form', 'Your enquiry has been submitted successfully. We will get back to you in 3–5 business days.');
     handleFormSubmit('volunteer-form', 'Your volunteer application has been submitted successfully. We will get back to you soon.');
+
 });
