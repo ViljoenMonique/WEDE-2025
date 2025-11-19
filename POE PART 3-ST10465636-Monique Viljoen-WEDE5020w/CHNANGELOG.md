@@ -6,7 +6,7 @@ All notable changes to this project will be documented in this file.
 
 ## Part 3
 
-## [1.0.4] - 2025-11-18
+## [1.0.4] - 2025-11-18 
 
 ###  Features
 
@@ -19,11 +19,14 @@ Now the website is no longer just pretty – it actually works like a real moder
 - Fill in the forms → if you type a wrong email or leave something blank, it turns red and tells you the error
 - Click Submit → a lovely popup says “Thank you, Monique! Your message has been sent…” and the form clears
 
+###  Fixes
+Updated the changelog as per requested from feedback in part 2 below
+
 ## [1.0.3] - 2025-11-17
 
 ###  Features
 
-## Part 2 (only HTML + CSS)
+## Part 2 (only HTML + CSS) (NEW)
 Your website looked absolutely beautiful.
 Everything was styled perfectly: the 3D blocks, the rotating cards on About Us, the animated helping-hand on Home, the watermark, the blue buttons, the car driving under the map, the perfect colours and fonts – everything was exactly how you wanted it.
 But it was still just a pretty picture:
